@@ -1,0 +1,47 @@
+1.В мета части в <DOCTYPE..> нет восклицательного знака
+2.Блок head: 
+- исправлен <title> перенесён закрывающий </title> вверх и внесен заголовок
+- в <style> добавлен type="text/css"
+- в медиа @medai only screen исправлен максимальный размер на 399,99px и добавлены отсутвтвующие кавычки {}
+3.Блок body: 
+   head:
+- <body> : добавлен class="es-wrapper-color" и style="Margin: 0;padding: 0;min-width: 100%"
+	 : в конце верстки добавлен закрывающий </body>
+- удален <div> 
+- в шапке в <table class="es-header-body"> исправлен bgcolor="#fafafa" и изменены атрибуты размера на width="100%", style="max-width:600px;"  
+- для Logo : в <table> изменены атрибуты размера width="100%" style="max-width:560px;"
+           : из <td> удален style="font-size: 0px;"
+           : <a> добавлен атрибут href="https://"
+           : из <img alt="Logo"> удален font-size: 12px, добавлен атрибут alt="Logo", перед закрытием тега добавлен "/"    
+- для ссылок в меню "Shop и Sale" в <td> исправлены padding на положительные
+   main: 
+- для основной картинки с подарками : в <td> изменены атрибуты размера width="100%", style="max-width:600px;" 
+                                    : для <a> добавлен атрибут href="https://"
+                                    : в <img> добавлен атрибут alt="present", изменена ширина основной картинки на width="300", перед закрытием тега добавлен "/"  
+- в <h1> для "ENJOY 25% OFF" изменён размер шрифта font-size: 70px
+- для текста "Our brand.." : в <td> удален class="esd-block-text", добавлен class="es-content-body", добавлены атрибуды размера width="100%", style="max-width:560px;"
+                           : удален <span>   
+- часть "Promo": в <td> изменены атрибуды ширины width="100%", style="max-width: 560px;"    
+               : в <td> удален class="esd-block-text"  
+               : для промокода "FGH-123-VBN" удален тег <strong>, а в <a>: добавлен color: #5c68e2, изменена font-weight: 700, добавлено href="https://" 
+- для кнопки "Go shopping" : в <table> изменены атрибуты ширины width="100%", style="max-width: 560px;"
+                           : в <a> добавлено значение атрибута href="https://" 
+- в части с заглавием "How does it work?": для <td> изменены атрибуты ширины width="100%", style="max-width: 560px;"
+                                         : из <td> удален class="esd-block-text", испрален атрибут на aling="center"
+					 : в <td> изменен атрибут на class="es-p30"
+					 : из <td> удалены style="font-size: 0px;"
+					 : тегам <a> добавлено значение href="https://" 
+					 : тегам <img> добавлены значения alt="check_mark", перед закрытием тега добавлен "/" 	
+	     		                 : части с check-mark добавлена обертка из <tr>, <td align="center">, <table cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width: 600px;">, <tbody> 
+					 : добавлено <td class="es-hidden" width="20"></td> для второй колонки check-mark
+5.footer:
+- в <table> добавлены атрибуты размера width="100%", style="max-width:600px;"
+- перенесены padding class="es-p20r es-p20l" для "copy" и "social"  
+- в <td> изменено значение атрибута на align="center"
+- меню со ссылками "Visit Us, Privacy Policy, Terms of Use" перенесено под "copy", изменен их размер в <a> font-size: 14px; 
+- часть с "social": из <td> удален width="600"
+		  : в <a> добавлено href="https://">
+	          : добавлены закрывающие теги </a>
+		  : изменены значения атрибута на alt="Facebook", alt="Twitter", alt="Instagram"
+- в части "copy" <td> удалили class="esd-block-text", добавили class="es-footer-body" и style="background-color: transparent;" 
+- часть с отпиской пенесена в другое место кода, удалены лишние <a>, добавлен href="{{UnsubscribeUrl}}".
